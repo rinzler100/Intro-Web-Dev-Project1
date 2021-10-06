@@ -40,15 +40,27 @@ body {
     align-items: center;
 }
 
+.article-one p {
+    text-align: left;
+}
+
 .article-two {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     border-right: 1px solid black;
     border-left: 1px solid black;
     width: 50%;
     padding: 6px;
+}
+
+.article-two p {
+    text-align: left;
+}
+
+.puppy-image {
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .article-three {
@@ -58,4 +70,8 @@ body {
     align-items: center;
     width: 25%;
     padding: 6px;
+}
+
+.article-three p {
+    text-align: left;
 }
